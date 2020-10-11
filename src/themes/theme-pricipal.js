@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from 'components/HeaderSection/Header';
-import HeroSection from 'components/HeroSection/HeroThree';
+import HeroSection from 'components/HeroSection';
 import FeatureSection from 'components/Features/FeatureThree';
 import ServiceSection from 'components/ServiceSection/ServiceThree';
 import DiscoverSection from 'components/DiscoverSection/DiscoverThree';

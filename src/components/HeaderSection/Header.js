@@ -19,30 +19,8 @@ class Header extends Component {
                         </button>
                         <nav>
                             <ul className="navbar-nav" id="navbar-nav">
-                                <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Home
-                                    </a>
-                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li>
-                                            <a className="dropdown-item" href="/">Homepage-1</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="/theme-two">Homepage-2</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="/theme-three">Homepage-3</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="/theme-four">Homepage-4</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="/theme-five">Homepage-5</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="/theme-six">Homepage-6</a>
-                                        </li>
-                                    </ul>
+                            <li className="nav-item">
+                                    <a className="nav-link scroll" href="#home">Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link scroll" href="#features">Features</a>
