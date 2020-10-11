@@ -3,11 +3,9 @@ import React, { Component } from 'react';
 import Header from 'components/HeaderSection/Header';
 import HeroSection from 'components/HeroSection';
 import FeatureSection from 'components/Features/FeatureThree';
-import ServiceSection from 'components/ServiceSection/ServiceThree';
-import DiscoverSection from 'components/DiscoverSection/DiscoverThree';
+import ServiceSection from 'components/ServiceSection/index';
+import DiscoverSection from 'components/DiscoverSection/index';
 import Work from 'components/WorkSection/Work';
-import ReviewSection from 'components/ReviewSection/ReviewOne';
-import PricingSection from 'components/PricingSection/PricingTwo';
 import Download from 'components/DownloadSection/Download';
 import Subscribe from 'components/SubscribeSection/Subscribe';
 import ContactSection from 'components/ContactSection/Contact';
@@ -29,8 +27,6 @@ class Theme extends Component {
                     <Work />
                     <ServiceSection />
                     <DiscoverSection />
-                    <ReviewSection />
-                    <PricingSection />
                     <Subscribe />
                     <Download />
                     <ContactSection />

@@ -106,10 +106,7 @@ class Header extends Component {
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#screenshots">Screenshots</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link scroll" href="#pricing">Pricing</a>
+                                    <a className="nav-link scroll" href="#tlmam">TLMAM ?</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link scroll" href="#contact">Contact</a>

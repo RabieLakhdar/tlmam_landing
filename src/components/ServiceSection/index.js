@@ -21,7 +21,7 @@ class ServiceSection extends Component {
     }
     render() {
         return (
-            <section className="section service-area overflow-hidden ptb_100">
+            <section id="tlmam" className="section service-area bg-gray overflow-hidden ptb_100">
                 <div className="container">
                     <div className="row justify-content-between">
                     <div className="col-12 col-lg-6 order-2 order-lg-1">
@@ -52,7 +52,7 @@ class ServiceSection extends Component {
                     <div className="col-12 col-lg-4 order-1 order-lg-2 d-none d-lg-block">
                         {/* Service Thumb */}
                         <div className="service-thumb mx-auto">
-                        <img src={this.state.data.thumbTwo} alt="" />
+                        <img src={this.state.data.thumbOne} alt="" />
                         </div>
                     </div>
                     </div>

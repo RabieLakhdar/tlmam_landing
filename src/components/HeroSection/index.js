@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
 const initData = {
-    heading: "Showcase your",
-    headingTwo: "App in easy way",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nihil tenetur minus quidem est deserunt molestias accusamus harum ullam tempore debitis et, expedita, repellat delectus aspernatur neque itaque qui quod.",
+    heading: "TLMAM Money Service",
+    content: "The first mobile app on North Africa, grow between all services & money transfer, you can contribute between citizens by positive actions",
     btnText: "Start free trail",
-    iconClass: "fas fa-play"
+    iconClass: "fas fa-play",
+    headingSlug: "* Available on iPhone, iPad and all Android devices",	
+    playImg: "/img/google-play.png",	
+    appleImg: "/img/app-store.png",
 }
 
 class HeroSection extends Component {
@@ -25,13 +27,22 @@ class HeroSection extends Component {
                     {/* Welcome Intro Start */}
                     <div className="col-12 col-md-7 col-lg-6">
                         <div className="welcome-intro">
-                        <h1 className="text-white">{this.state.data.heading}<br />{this.state.data.headingTwo}</h1>
+                        <h1 className="text-white">{this.state.data.heading}</h1>
                         <p className="text-white my-4">{this.state.data.content}</p>
                         {/* Subscribe Form */}
                         <div className="subscribe-form d-flex align-items-center">
                             <input type="email" className="form-control" placeholder="info@yourmail.com" />
                             <button type="submit" className="btn btn-bordered">{this.state.data.btnText}</button>
                         </div>
+                        <div className="button-group store-buttons d-flex">	
+                            <a href="/#">	
+                            <img src={this.state.data.playImg} alt="" />	
+                            </a>	
+                            <a href="/#">	
+                            <img src={this.state.data.appleImg} alt="" />	
+                            </a>	
+                        </div>
+                        <span className="d-inline-block text-white fw-3 font-italic mt-3">{this.state.data.headingSlug}</span>
                         </div>
                     </div>
                     <div className="col-12 col-md-5 col-lg-6">

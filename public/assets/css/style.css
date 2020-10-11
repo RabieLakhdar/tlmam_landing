@@ -433,7 +433,7 @@ img {
     width: 100%;
     display: block;
     border-radius: 120px;
-    background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+    background: linear-gradient(-47deg, #bb160a 0%, #0d4a88 100%);
     bottom: 0;
     right: 0;
     -webkit-transform: translate(35%,-28%) rotate(-35deg);
@@ -506,7 +506,7 @@ img {
 .btn.sApp-btn:before,
 .bg-overlay::after,
 .benifits-item:after {
-    background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+    background: linear-gradient(-47deg, #bb160a 0%, #0d4a88 100%);
 }
 
 /*SOCIAL ICONS*/
@@ -557,7 +557,7 @@ img {
 }
 
 .homepage-3 .welcome-area {
-    background: rgba(0, 0, 0, 0) url("/img/blog-5.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("/img/home-page.jpg") no-repeat scroll center center / cover;
 }
 
 .homepage-4 .welcome-area {
@@ -1011,7 +1011,7 @@ img {
 
 .play-icon {
     font-size: 22px;
-    color: #7c4fe0;
+    color: #0d4a88;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1185,7 +1185,8 @@ img {
 
 .single-counter span {
     font-size: 3em;
-    background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+    /* background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%); */
+    background: linear-gradient(-47deg, #bb160a 0%, #0d4a88 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1634,7 +1635,7 @@ img {
 .subscribe-form button {
     height: 60px;
     border-radius: 8px;
-    background: #7c4fe0 !important;
+    background: #0d4a88 !important;
 }
 
 /* ******************************

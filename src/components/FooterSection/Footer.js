@@ -113,7 +113,7 @@ class FooterSection extends Component {
                                 {/* Copyright Left */}
                                 <div className="copyright-left">© Copyrights 2020 sApp All rights reserved.</div>
                                 {/* Copyright Right */}
-                                <div className="copyright-right">Made with <i className="fas fa-heart" /> By <a href="/#">Theme Land</a></div>
+                                <div className="copyright-right">Made with <i className="fas fa-heart" /> By <a href="https://rabiel.dev" alt="Rabiel.dev" rel="noopener noreferrer" target="_blank">Rabiel.Dev</a></div>
                             </div>
                             </div>
                         </div>
