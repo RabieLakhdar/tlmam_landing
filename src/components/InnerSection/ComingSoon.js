@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Header from '../HeaderSection/Header';
 
 const initData = {
-    heading: "We are coming soon!",
-    content: "Our website is under construction. We'll be here soon with our new awesome site, subscribe to be notified.",
+    heading: "Nous arrivons bientôt!",
+    content: "Notre application mobile est en cours de construction. Nous serons bientôt là avec notre nouvelle super première solution financière et sociale en Afrique du Nord, abonnez-vous pour être averti.",
     btnText: "Notify"
 }
 
@@ -29,12 +29,7 @@ class ComingSoon extends Component {
                                         <h1 className="text-white">{this.state.initData.heading}</h1>
                                         <p className="text-white my-4">{this.state.initData.content}</p>
                                         <div className="countdown-times mb-4">
-                                            <div className="countdown d-flex justify-content-center" data-date="2021-12-09" />
-                                        </div>
-                                        {/* Subscribe Form */}
-                                        <div className="subscribe-form d-flex align-items-center mx-auto">
-                                            <input type="email" className="form-control" placeholder="info@yourmail.com" />
-                                            <button type="submit" className="btn btn-bordered">{this.state.initData.btnText}</button>
+                                            <div className="countdown d-flex justify-content-center" data-date="2021-01-01" />
                                         </div>
                                     </div>
                                 </div>
