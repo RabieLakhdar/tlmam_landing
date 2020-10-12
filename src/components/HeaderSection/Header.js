@@ -20,10 +20,10 @@ class Header extends Component {
                         <nav>
                             <ul className="navbar-nav" id="navbar-nav">
                             <li className="nav-item">
-                                    <a className="nav-link scroll" href="#home">Home</a>
+                                    <a className="nav-link scroll" href="#home">Accueil</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#features">Features</a>
+                                    <a className="nav-link scroll" href="#features">Fonctions</a>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

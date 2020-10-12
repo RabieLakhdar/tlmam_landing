@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 
 const initData = {
     heading: "TLMAM Money Service",
-    content: "The first mobile app on North Africa, grow between all services & money transfer, you can contribute between citizens by positive actions",
-    btnText: "Start free trail",
+    content: "La première application mobile sur l'Afrique du Nord, évolue entre tous les services financier, social et le transfert d'argent, vous pouvez contribuer entre citoyens par des actions positives",
     iconClass: "fas fa-play",
-    headingSlug: "* Available on iPhone, iPad and all Android devices",	
+    headingSlug: "* Disponible sur iPhone, iPad et tous les appareils Android",	
     playImg: "/img/google-play.png",	
     appleImg: "/img/app-store.png",
 }
@@ -29,11 +28,6 @@ class HeroSection extends Component {
                         <div className="welcome-intro">
                         <h1 className="text-white">{this.state.data.heading}</h1>
                         <p className="text-white my-4">{this.state.data.content}</p>
-                        {/* Subscribe Form */}
-                        <div className="subscribe-form d-flex align-items-center">
-                            <input type="email" className="form-control" placeholder="info@yourmail.com" />
-                            <button type="submit" className="btn btn-bordered">{this.state.data.btnText}</button>
-                        </div>
                         <div className="button-group store-buttons d-flex">	
                             <a href="/#">	
                             <img src={this.state.data.playImg} alt="" />	

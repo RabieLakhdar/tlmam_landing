@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "TLMAM",
+  "name": "TLMAM Money Service",
+  "description": "La première application mobile sur l'Afrique du Nord, évolue entre tous les services financier, social et le transfert d'argent, vous pouvez contribuer entre citoyens par des actions positives",
   "icons": [
     {
       "src": "favicon.ico",
