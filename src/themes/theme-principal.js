@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Header from 'components/HeaderSection/Header';
 import HeroSection from 'components/HeroSection';
-import FeatureSection from 'components/Features/FeatureThree';
+import FeatureSection from 'components/Features/index';
 import ServiceSection from 'components/ServiceSection/index';
 import DiscoverSection from 'components/DiscoverSection/index';
 import Work from 'components/WorkSection/Work';
