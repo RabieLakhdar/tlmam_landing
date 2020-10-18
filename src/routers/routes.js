@@ -19,7 +19,7 @@ const MyRouts = () => {
             <Route exact path="/" component={ComingSoon} />
             <Route path="/download-page" component={DownloadPage} />
             <Route path="/subscribe-page" component={SubscribePage} />
-            <Route path="/thank-you" component={ThankYou} />
+            <Route path="/activated" component={ThankYou} />
             <Route path="/coming-soon" component={Theme} />
             <Route path="/faq" component={Faq} />
             <Route path="/error-page" component={ErrorPage} />

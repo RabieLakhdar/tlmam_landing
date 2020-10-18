@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Header from '../HeaderSection/Header';
 
 const initData = {
-    heading: "Thank you for downloading sApp",
-    content: "We are continuously creating new stuff for sApp and trying to keep it up to date with the new technologies that might appear along the development process. We appreciate each of you who downloaded or purchased our theme and we take your suggestions into consideration every time.",
-    btnText: "Go to Homepage"
+    heading: "Votre compte a été activé",
+    content: "vous pouvez maintenant vous connecter dans l'application, nous créons continuellement de nouvelles choses pour TLMAM Money Service et essayons de le maintenir à jour avec les nouvelles activités qui pourraient apparaître tout au long du processus de développement. Nous apprécions chacun de vous qui a activé un compte ou téléchargé l'application TLMAM et nous prenons en considération vos suggestions à chaque fois.",
+    btnText: "Aller à la page d'accueil"
 }
 
 class ThankYou extends Component {
