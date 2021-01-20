@@ -3,7 +3,7 @@ import Header from '../HeaderSection/Header';
 
 const initData = {
     heading: "Votre compte a été activé",
-    content: "vous pouvez maintenant vous connecter dans l'application, nous créons continuellement de nouvelles choses pour TLMAM Money Service et essayons de le maintenir à jour avec les nouvelles activités qui pourraient apparaître tout au long du processus de développement. Nous apprécions chacun de vous qui a activé un compte ou téléchargé l'application TLMAM et nous prenons en considération vos suggestions à chaque fois.",
+    content: "vous pouvez maintenant vous connecter dans l'application, nous créons continuellement de nouvelles choses pour TLMAM Social Service et essayons de le maintenir à jour avec les nouvelles activités qui pourraient apparaître tout au long du processus de développement. Nous apprécions chacun de vous qui a activé un compte ou téléchargé l'application TLMAM et nous prenons en considération vos suggestions à chaque fois.",
     btnText: "Aller à la page d'accueil"
 }
 

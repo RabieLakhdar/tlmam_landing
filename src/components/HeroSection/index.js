@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const initData = {
-    heading: "TLMAM Money Service",
+    heading: "TLMAM Social Service",
     content: "La première application mobile sur l'Afrique du Nord, évolue entre tous les services financier, social et le transfert d'argent, vous pouvez contribuer entre citoyens par des actions positives",
     iconClass: "fas fa-play",
     headingSlug: "* Disponible sur iPhone, iPad et tous les appareils Android",	
