@@ -29,7 +29,7 @@ class ComingSoon extends Component {
                                         <h1 className="text-white">{this.state.initData.heading}</h1>
                                         <p className="text-white my-4">{this.state.initData.content}</p>
                                         <div className="countdown-times mb-4">
-                                            <div className="countdown d-flex justify-content-center" data-date="2021-03-01" />
+                                            <div className="countdown d-flex justify-content-center" data-date="2021-04-01" />
                                         </div>
                                     </div>
                                 </div>
