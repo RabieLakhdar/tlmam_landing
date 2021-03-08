@@ -817,7 +817,9 @@ img {
 .navbar-sticky-on .navbar-brand-regular {
     display: none;
 }
-
+.navbar-brand img {
+    height: 45px;
+}
 .navbar-sticky-on .navbar-brand-sticky {
     display: inline;
 }
