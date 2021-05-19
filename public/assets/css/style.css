@@ -433,7 +433,7 @@ img {
     width: 100%;
     display: block;
     border-radius: 120px;
-    background: linear-gradient(-47deg, #303131 0%, #408bec 100%);
+    background: linear-gradient(-47deg, #303131 0%, #28466d 100%);
     bottom: 0;
     right: 0;
     -webkit-transform: translate(35%,-28%) rotate(-35deg);
@@ -506,7 +506,7 @@ img {
 .btn.sApp-btn:before,
 .bg-overlay::after,
 .benifits-item:after {
-    background: linear-gradient(-47deg, #303131 0%, #408bec 100%);
+    background: linear-gradient(-47deg, #303131 0%, #28466d 100%);
 }
 
 /*SOCIAL ICONS*/
@@ -1188,7 +1188,7 @@ img {
 .single-counter span {
     font-size: 3em;
     /* background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%); */
-    background: linear-gradient(-47deg, #303131 0%, #408bec 100%);
+    background: linear-gradient(-47deg, #303131 0%, #28466d 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
